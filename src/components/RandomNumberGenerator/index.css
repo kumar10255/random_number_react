@@ -1,0 +1,75 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+}
+.card-container {
+  background-color: #ffff;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 20px;
+}
+.heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 700;
+}
+.para {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+}
+.guessvalue {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 68px;
+  font-weight: 700;
+}
+.show-hide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.show-hide-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+}
+
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-bottom: 48px;
+}
